@@ -1,6 +1,6 @@
 const exprees = require('express');
 
-const app = exprees();
+const app = express();
 
 app.get('/', (req, res) => {
     res.send('Hello World');
